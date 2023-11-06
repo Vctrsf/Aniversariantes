@@ -1,89 +1,36 @@
-﻿Bruno Jorge Novaes | brunojorgenovaes@eldor.it | 23/01/1972
-                                        
-Joana Gabrielly Santos | joana.gabrielly.santos@sectron.com.br | 01/01/1982
-
-Severino Thales Leonardo Peixoto | severino_thales_peixoto@hardquality.com.br | 21/01/2001
-
-
-Fabricio Rocha Pina | fabricio@sociedadeweb.com.br | 02/02/1979
-
-Riselda Corrêa Terra | riselda@clinicasilhouette.com.br | 14/02/1978
-
-Betina Andrea Peixoto | betina_andrea_peixoto@viamoc.com.br | 26/02/2000
-
-
-Sophie Stefany Nogueira | sophie_nogueira@contabilidaderangel.com.br | 04/03/1982
-
-Laura Priscila Nunes | laura_nunes@cielo.com.br | 10/03/1989
-
-Renato Faria Holanda | renato8@lubeka.com.br | 31/03/1999
-
-
-Emanuel Benjamin Barbosa | emanuel-barbosa81@tigra.com.br | 18/04/1975
-
-Jaqueline Emily Analu da Cruz | jaqueline_dacruz@proxion.com.br | 06/04/1981
-
-Murilo Lucca Kevin Baptista | murilo.lucca.baptista@trilhavitoria.com.br | 08/04/1998
-
-
-Samuel Heitor da Paz | samuel-dapaz87@dbacomp.com.br | 05/05/1967
-
-Hugo Ruan Ruan Brito | hugoruanbrito@apso.org.br | 07/05/1975
-
-Augusto Osvaldo Melo | augusto_osvaldo_melo@globo.com | 02/05/1997
-
-
-Lorena Sara Stella Ramos | lorena_ramos@qualita.srv.br | 01/06/1988
-
-Sara Letícia Costa | sara_leticia_costa@sp.senac.com.br | 13/06/1984
-
-Sophia Fátima Alícia dos Santos | sophia_santos@msltecnologia.com.br | 05/6/1991
-
-
-Rodrigo Roberto Danilo Gonçalves | rodrigo_goncalves@novaequipem.com.br | 06/07/1985
-
-Andreia Duarte | andreia-duarte72@zipmail.com.br | 24/07/1992
-
-Kevin Nathan Fogaça | kevin-fogaca89@recantoalmeida.com.br | 11/07/1999
-
-
-Aparecida Pereira | aparecida_pereira@michaelpage.com.br | 03/08/1980
-
-Heloise Amanda da Rocha | heloise_amanda_darocha@doublemoore.com | 18/08/1984
-
-Maria Tânia Nascimento | maria.tania.nascimento@hoatmail.com | 08/08/2001
-
-
-Marina Nina Souza | marina.nina.souza@mundivox.com.br | 06/09/1981
-
-Amanda Raquel | amanda_maria_dapaz@vcp.com.br | 01/09/1990
-
-Eduarda Natália Barbosa |  eduarda.natalia.barbosa@cursomarcato.com.br | 06/09/2002
-
-
-Marcelo Gabriel Aparício | marcelo_aparicio@hlt.arq.br | 08/10/1969
-
-Márcia Camila Ramos | marcia.camila.ramos@br.inter.net | 08/10/1984
-
-Lavínia Antonella Patrícia Souza | lavinia_souza@anfip.org.br | 01/10/1996
-
-
-Augusto Igor Porto | augusto.igor.porto@ppconsulting.com.br | 05/11/1963
-
-Priscila Ester Luiza Barros | priscila-barros75@aguianet.com.br | 25/11/1967
-
-Paulo Caio Araújo | paulo-araujo99@br.flextronics.com |  15/11/1989
-
-
-
-Isabela Moreira | isabel.hadassa.moreira@teravida.com.br | 25/12/1991
-
-Juan Miguel Silva | juan_silva@outershoes.com.br | 24/12/1997
-
-Nina Carolina |nina-carol83@trevorh.com.br | 03/12/2002
-
-
-
-
-
-
+﻿Bruno Jorge Novaes|brunojorgenovaes@eldor.it|23/01/1972
+Joana Gabrielly Santo|joana.gabrielly.santos@sectron.com.br|01/01/1982
+Severino Thales Leonardo Peixoto|severino_thales_peixoto@hardquality.com.br|21/01/2001
+Fabricio Rocha Pina|fabricio@sociedadeweb.com.br|02/02/1979
+Riselda Corrêa Terra|riselda@clinicasilhouette.com.br|14/02/1978
+Betina Andrea Peixoto|betina_andrea_peixoto@viamoc.com.br|26/02/2000
+Sophie Stefany Nogueira |sophie_nogueira@contabilidaderangel.com.br|04/03/1982
+Laura Priscila Nunes|laura_nunes@cielo.com.br|10/03/1989
+Renato Faria Holanda|renato8@lubeka.com.br|31/03/1999
+Emanuel Benjamin Barbosa|emanuel-barbosa81@tigra.com.br|18/04/1975
+Jaqueline Emily Analu da Cruz|jaqueline_dacruz@proxion.com.br|06/04/1981
+Murilo Lucca Kevin Baptista|murilo.lucca.baptista@trilhavitoria.com.br|08/04/1998
+Samuel Heitor da Paz|samuel-dapaz87@dbacomp.com.br|05/05/1967
+Hugo Ruan Ruan Brito|hugoruanbrito@apso.org.br|07/05/1975
+Augusto Osvaldo Melo|augusto_osvaldo_melo@globo.com|02/05/1997
+Lorena Sara Stella Ramos|lorena_ramos@qualita.srv.br|01/06/1988
+Sara Letícia Costa|sara_leticia_costa@sp.senac.com.br|13/06/1984
+Sophia Fátima Alícia dos Santos|sophia_santos@msltecnologia.com.br|05/06/1991
+Rodrigo Roberto Danilo Gonçalves|rodrigo_goncalves@novaequipem.com.br|06/07/1985
+Andreia Duarte|andreia-duarte72@zipmail.com.br|24/07/1992
+Kevin Nathan Fogaça|kevin-fogaca89@recantoalmeida.com.br|11/07/1999
+Aparecida Pereira|aparecida_pereira@michaelpage.com.br|03/08/1980
+Heloise Amanda da Rocha|heloise_amanda_darocha@doublemoore.com|18/08/1984
+Maria Tânia Nascimento|maria.tania.nascimento@hoatmail.com|08/08/2001
+Marina Nina Souza|marina.nina.souza@mundivox.com.br|06/09/1981
+Amanda Raquel|amanda_maria_dapaz@vcp.com.br|01/09/1990
+Eduarda Natália Barbosa|eduarda.natalia.barbosa@cursomarcato.com.br|06/09/2002
+Marcelo Gabriel Aparício|marcelo_aparicio@hlt.arq.br|08/10/1969
+Márcia Camila Ramos|marcia.camila.ramos@br.inter.net|08/10/1984
+Lavínia Antonella Patrícia Souza|lavinia_souza@anfip.org.br|01/10/1996
+Augusto Igor Porto|augusto.igor.porto@ppconsulting.com.br|05/11/1963
+Priscila Ester Luiza Barros|priscila-barros75@aguianet.com.br|25/11/1967
+Paulo Caio Araújo|paulo-araujo99@br.flextronics.com|15/11/1989
+Isabela Moreira|isabel.hadassa.moreira@teravida.com.br|25/12/1991
+Juan Miguel Silva|juan_silva@outershoes.com.br|24/12/1997
+Nina Carolina|nina-carol83@trevorh.com.br|03/12/2002

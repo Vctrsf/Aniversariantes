@@ -1,8 +1,10 @@
 ﻿
 using ModalGR_Aniversariantes.Aniversariantes;
 
-var aniversariantes = new GerenciadorDeAniversariantes();
+var gerenciador = new GerenciadorDeAniversariantes();
 
 
-aniversariantes.ExibeTitulo();
+gerenciador.ExibeTitulo();
+
+gerenciador.LeEListaColaboradores();
 

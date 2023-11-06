@@ -3,23 +3,40 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace ModalGR_Aniversariantes.Aniversariantes
 {
-    
-    internal class ManipuladorDeArquivos
+
+    public class ManipuladorDeArquivos
     {
-        public void Escrita(string diretorio, string nomeDoArquivo, string conteudoDoArquivo)
+        public void EscreveArquivo(string diretorio, string nomeDoArquivo, List<string> conteudoDoArquivo)
         {
 
         }
 
 
 
-        public List<string> Leitura(string diretorio, string nomeDoArquivo) 
+        public List<string> LeArquivo(string diretorio, string nomeDoArquivo)
         {
-            List<string> resultado;
-            return resultado;
+            List<string> dados = new List<string>();
+
+            string filePath = diretorio + '\\' + nomeDoArquivo;
+
+            string linha;
+
+            if (File.Exists(filePath))
+            {
+                using (StreamReader reader = new StreamReader(filePath))
+                {
+                    while ((linha = reader.ReadLine()) != null)
+                    {
+                        dados.Add(linha);
+                    }
+                }
+            }
+
+            return dados;
         }
     }
 }
