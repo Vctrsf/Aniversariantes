@@ -24,19 +24,19 @@ namespace ModalGR_Aniversariantes.Aniversariantes
 
         }
 
-        //Método que lê e lista os colaboradores do arquivo-fonte
+        
         public List<Colaborador> LeEListaColaborador()
         {
 
         }
 
-        //Metodo que grava a lista dos aniversariantes do mês
+        
         public List<Colaborador> GravaListaAniversariante()
         {
 
         }
 
-        //Método que informa ao usuário os aniversariantes do mês e o diretório de onde está o arquivo.
+        
         public void InformaUsuario(List<Colaborador> colaboradores)
         {
             

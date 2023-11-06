@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ModalGR_Aniversariantes.Aniversariantes
 {
-    //Classe que separa nome, email e data de nascimento dos colaboradores
+    
     public class Colaborador
     {
         public string Nome { get; set; }
