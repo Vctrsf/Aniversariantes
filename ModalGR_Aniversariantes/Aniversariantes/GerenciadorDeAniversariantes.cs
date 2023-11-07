@@ -42,9 +42,7 @@ namespace ModalGR_Aniversariantes.Aniversariantes
 
             List<Colaborador> resultado = new List<Colaborador>();
             Console.WriteLine("Lista obtida com sucesso...\n");
-            Console.WriteLine("Procurando aniversariantes...");
 
-            var mesAtual = DateTime.Now.Month;
             foreach (string str in listaDeStrings)
             {
                 string[] dados = str.Split('|');
@@ -54,33 +52,63 @@ namespace ModalGR_Aniversariantes.Aniversariantes
                 colaboradores.Email = dados[1];
                 colaboradores.dataNascimento = DateTime.ParseExact(dados[2], "dd/MM/yyyy", CultureInfo.InvariantCulture);
 
-                if (colaboradores.dataNascimento.Month == DateTime.Now.Month)
+                resultado.Add(colaboradores);
+            }
+
+            return resultado;
+        }
+
+        public List<Colaborador> GravaListaAniversariante(List<Colaborador> colaboradores)
+        {
+            List<Colaborador> aniversariantes = new List<Colaborador>();
+            List<string> aniversariantesParaGravar = new List<string>();
+
+            var mesAtual = DateTime.Now.Month;
+
+            var manipuladorDeArquivos = new ManipuladorDeArquivos();
+
+            foreach (Colaborador colab in colaboradores)
+            {
+                if (colab.dataNascimento.Month == mesAtual)
                 {
-                    resultado.Add(colaboradores); 
+                    aniversariantes.Add(colab);
+                    string colabParaGravar = colab.Nome + "|" + colab.Email + "|" + colab.dataNascimento.ToShortDateString();
+
+                    aniversariantesParaGravar.Add(colabParaGravar);
+
                 }
             }
 
-            if (resultado.Any())
+            string arquivoAniversariantes = "aniversariantes_" + mesAtual + ".txt";
+            manipuladorDeArquivos.EscreveArquivo(_diretorioDeColaboradores, arquivoAniversariantes, aniversariantesParaGravar);
+
+
+
+
+            if (aniversariantes.Any())
             {
-                Console.WriteLine("Foram encontrados " + resultado.Count + " aniversariantes");
+                Console.WriteLine("Foram encontrados " + aniversariantes.Count);
+                Console.WriteLine("Lista de aniversariantes gravada em: " + _diretorioDeColaboradores + "\\" + arquivoAniversariantes);
             }
             else
             {
                 Console.WriteLine("Não há aniversariantes este mês.");
             }
 
-            return resultado;
+            return aniversariantes;
         }
 
-        public List<Colaborador> GravaListaAniversariante()
+        public void InformaUsuario(List<Colaborador> aniversariantes)
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Aniversariantes do mês: ");
+
+            foreach (var niver in aniversariantes)
+            {
+                Console.WriteLine();
+                Console.WriteLine($"{niver.Nome} {niver.Email} {niver.dataNascimento.ToShortDateString()}");
+            }
+
         }
 
-
-        public void InformaUsuario(List<Colaborador> colaboradores)
-        {
-
-        }
     }
 }

@@ -12,7 +12,19 @@ namespace ModalGR_Aniversariantes.Aniversariantes
     {
         public void EscreveArquivo(string diretorio, string nomeDoArquivo, List<string> conteudoDoArquivo)
         {
+            var caminho = diretorio + "\\" + nomeDoArquivo;
 
+            if(File.Exists(caminho))
+            {
+                File.Delete(caminho);
+            }
+            using (StreamWriter temp = new StreamWriter(caminho))
+            {
+                foreach (var str in conteudoDoArquivo)
+                {
+                    temp.WriteLine(str);
+                }
+            }
         }
 
 
@@ -34,8 +46,7 @@ namespace ModalGR_Aniversariantes.Aniversariantes
                         dados.Add(linha);
                     }
                 }
-            }
-
+            } 
             return dados;
         }
     }
